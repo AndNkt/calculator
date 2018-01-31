@@ -1,0 +1,44 @@
+body{
+ 	max-width:1200px;
+ 	width:20vw;
+ 	margin:auto;
+ 	position:relative;
+ }
+ .calculator-view{
+ 	
+ 	padding:1rem;
+ 	height:220px;
+	display:grid;
+	grid-template-columns:30px 30px 30px 30px;
+	grid-template-rows:50px 30px 30px 30px 30px 30px;
+ 	border:2px solid black;
+	border-radius:10%;
+	width:15vw;
+	margin:auto;
+ }
+#lcd-row{
+	width:100%;
+	grid-column:3/-1;
+}
+.wrapper{
+	width:100%;
+	position:relative;
+}
+.calculator-view:nth-child(2n) div{
+	border:2px solid black;
+}
+.butns-pad{
+	
+	padding-top:2rem;
+	margin:auto;
+	width:200px;
+	height:180px;
+	display:grid;
+	grid-template-columns:30px 30px 30px 30px;
+	grid-template-rows:30px 30px 30px 30px 30px;
+	text-align:center;
+
+}
+.butns-pad{
+	margin:auto;
+}
